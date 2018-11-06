@@ -19,7 +19,7 @@ class CalculatorTest {
 
     @Test
     fun multiply_check2() {
-        val result = Calculator.multiplyWrong(3, 4)
+        val result = Calculator.multiplyFixed(3, 4)
         val expectedResult = 12
 
         Assert.assertEquals(expectedResult, result)
